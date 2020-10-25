@@ -19,11 +19,8 @@ import java.util.List;
 import java.util.Map;
 
 @SpringBootTest
-@RunWith(SpringRunner.class)
+//@RunWith(SpringRunner.class)
 public class UserControllerTest {
-
-    @ClassRule
-    public static PostgreSQLContainer postgreSQLContainer = TestContainer.getInstance();
     
     @Autowired 
     private JdbcTemplate jdbcTemplate;
